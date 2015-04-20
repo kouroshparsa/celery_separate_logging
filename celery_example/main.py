@@ -58,5 +58,4 @@ def build(buildconfig, kickstart):
     # replace the handler
     logger.handlers[0] = handler
     logger.info("this is a task %s" % kickstart)
-    #import dna.aligner as aligner
-    fire.burn(">>>> %s" % kickstart)
+    fire.burn(kickstart)
