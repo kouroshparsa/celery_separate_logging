@@ -1,4 +1,8 @@
+import logging
 
 def burn(s):
-    print "burning %s" % s
+    logger = logging.getLogger('imagebuilder')
+    logging.info("burning %s" % s)
+    print "burning"
+
 
